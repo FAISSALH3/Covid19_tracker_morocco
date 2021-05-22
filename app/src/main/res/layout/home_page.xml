@@ -1,0 +1,504 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<ScrollView android:id="@+id/home_page"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" >
+
+
+
+			<RelativeLayout android:id="@+id/page_home_page_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginLeft="0dp">
+
+				<View
+					android:id="@+id/_bg__home_page_ek2"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__home_page_ek2_shape"
+					android:layout_marginLeft="0dp" />
+
+				<View
+					android:id="@+id/purple_background"
+					android:layout_width="match_parent"
+
+					android:layout_height="660dp"
+					android:layout_alignStart="@+id/group_23"
+					android:layout_alignLeft="@+id/group_23"
+					android:layout_marginStart="-29dp"
+					android:layout_marginLeft="-29dp"
+					android:layout_marginTop="-129dp"
+					android:background="@drawable/purple_background_shape" />
+
+				<TextView android:id="@+id/statistics"
+
+					android:textSize="20sp"
+					android:textColor="@color/statistics_color"
+					android:layout_marginLeft="29dp"
+					android:layout_marginTop="116dp"
+					android:layout_width="95dp"
+					android:layout_height="37dp"
+					android:text="@string/statistics_string"
+					/>
+
+				<TextView android:id="@+id/app_name"
+
+					android:textSize="25sp"
+					android:textColor="@color/_bg__home_page_ek2_color"
+					android:layout_marginLeft="29dp"
+					android:layout_marginTop="49dp"
+					android:layout_width="201dp"
+					android:layout_height="46.5dp"
+					android:text="@string/app_name_string"
+					/>
+
+				<TextView android:id="@+id/by_faissal_hamdi"
+
+					android:textSize="15sp"
+					android:textColor="@color/_bg__home_page_ek2_color"
+					android:layout_marginLeft="29dp"
+					android:layout_marginTop="78dp"
+					android:layout_width="120dp"
+					android:layout_height="28.5dp"
+					android:text="@string/by_faissal_hamdi_string"
+					/>
+
+
+				<RelativeLayout android:id="@+id/group_23"
+					android:layout_marginTop="177dp"
+					android:layout_marginStart="29dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="29dp">
+
+					<View android:id="@+id/rectangle_2"
+						android:clickable="true"
+						android:focusable="true"
+						android:background="@drawable/rectangle_2_shape"
+						android:alpha="0.15"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="327dp"
+						android:layout_height="48dp"
+						android:layout_marginLeft="0dp" />
+
+					<View android:id="@+id/rectangle_1"
+						android:clickable="true"
+						android:focusable="true"
+						android:background="@drawable/rectangle_1_shape"
+						android:layout_marginStart="4dp"
+						android:layout_marginTop="4dp"
+						android:layout_width="160dp"
+						android:layout_height="40dp"
+						android:layout_marginLeft="4dp" />
+
+					<TextView
+
+
+						android:id="@+id/mycountry"
+
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center_vertical"
+						android:textSize="16dp"
+						android:textColor="@color/affected_ek1_color"
+						android:layout_marginLeft="35dp"
+						android:layout_marginTop="14dp"
+						android:layout_width="88dp"
+						android:layout_height="24dp"
+						android:text="Morocco"
+						/>
+
+					<TextView android:id="@+id/global"
+
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center_vertical"
+						android:textSize="16dp"
+						android:textColor="@color/statistics_color"
+						android:layout_marginLeft="219dp"
+						android:layout_marginTop="14dp"
+						android:layout_width="88dp"
+						android:layout_height="24dp"
+						android:text="@string/global_string"
+						/>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/group_27"
+					android:layout_marginTop="269dp"
+					android:layout_marginStart="29dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="29dp">
+
+					<View android:id="@+id/affected_rectangle"
+						android:background="@drawable/affected_rectangle_shape"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="155dp"
+						android:layout_height="100dp"
+						android:layout_marginLeft="0dp" />
+
+					<TextView android:id="@+id/affected"
+
+						android:textStyle="bold"
+						android:textSize="14sp"
+						android:textColor="@color/statistics_color"
+						android:layout_marginLeft="12dp"
+						android:layout_marginTop="16dp"
+						android:layout_width="68dp"
+						android:layout_height="31dp"
+						android:text="Affected"
+						/>
+
+					<TextView
+						android:id="@+id/TodayConfirm"
+
+						android:textSize="15sp"
+						android:textColor="@color/statistics_color"
+						android:layout_marginLeft="12dp"
+						android:layout_marginTop="64dp"
+						android:layout_width="42dp"
+						android:layout_height="33.5dp"
+						android:text="(+ 0)"
+						/>
+
+					<TextView
+						android:id="@+id/TotalConfirm"						android:textSize="24sp"
+						android:textColor="@color/statistics_color"
+						android:layout_marginLeft="12dp"
+						android:layout_marginTop="32dp"
+						android:layout_width="107dp"
+						android:layout_height="53dp"
+						android:text="000000"
+						/>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/group_29"
+					android:layout_marginTop="385dp"
+					android:layout_marginStart="29dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="29dp">
+
+					<View android:id="@+id/recovered_rectangle"
+						android:background="@drawable/recovered_rectangle_shape"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="155dp"
+						android:layout_height="100dp"
+						android:layout_marginLeft="0dp" />
+
+					<TextView  android:id="@+id/TotalRecovered"
+
+						android:textSize="14sp"
+						android:textColor="@color/statistics_color"
+						android:layout_marginLeft="12dp"
+						android:layout_marginTop="16dp"
+						android:layout_width="83dp"
+						android:layout_height="31dp"
+						android:text="Recovered"
+						/>
+
+					<TextView android:id="@+id/today_recovered"
+
+						android:textSize="15sp"
+						android:textColor="@color/statistics_color"
+						android:layout_marginLeft="12dp"
+						android:layout_marginTop="71dp"
+						android:layout_width="42dp"
+						android:layout_height="33.5dp"
+						android:text="(+ 0)"
+						/>
+
+					<TextView
+						android:id="@+id/TodayRecovered"
+						android:textSize="20sp"
+						android:textColor="@color/statistics_color"
+						android:layout_marginLeft="12dp"
+						android:layout_marginTop="37dp"
+						android:layout_width="68dp"
+						android:layout_height="44dp"
+						android:text="000000"
+						/>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/group_30"
+					android:layout_marginTop="385dp"
+					android:layout_marginStart="200dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="143dp">
+
+
+					<View android:id="@+id/active_rectangle"
+						android:background="@drawable/active_rectangle_shape"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="155dp"
+						android:layout_height="100dp"
+						android:layout_marginLeft="0dp" />
+
+					<TextView
+						android:id="@+id/Active"
+
+						android:textSize="14sp"
+						android:textColor="@color/statistics_color"
+						android:layout_marginLeft="12dp"
+						android:layout_marginTop="16dp"
+						android:layout_width="51dp"
+						android:layout_height="31dp"
+						android:text="Active"
+						/>
+
+					<TextView
+						android:id="@+id/TodayActive"
+
+						android:textSize="15sp"
+						android:textColor="@color/statistics_color"
+						android:layout_marginLeft="12dp"
+						android:layout_marginTop="71dp"
+						android:layout_width="42dp"
+						android:layout_height="33.5dp"
+						android:text="(+ 0)"
+						/>
+
+					<TextView
+						android:id="@+id/TotalActive"
+
+						android:textSize="20sp"
+						android:textColor="@color/statistics_color"
+						android:layout_marginLeft="12dp"
+						android:layout_marginTop="37dp"
+						android:layout_width="83dp"
+						android:layout_height="44dp"
+						android:text="0000000"
+						/>
+
+				</RelativeLayout>
+
+
+
+
+
+				<RelativeLayout android:id="@+id/group_28"
+					android:layout_marginTop="269dp"
+					android:layout_marginStart="200dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="200dp">
+
+					<View android:id="@+id/death_rectangle"
+						android:background="@drawable/death_rectangle_shape"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="155dp"
+						android:layout_height="100dp"
+						android:layout_marginLeft="0dp" />
+
+					<TextView android:id="@+id/death"
+
+						android:textSize="14sp"
+						android:textColor="@color/statistics_color"
+						android:layout_marginLeft="12dp"
+						android:layout_marginTop="16dp"
+						android:layout_width="50dp"
+						android:layout_height="31dp"
+						android:text="Death"
+						/>
+
+					<TextView
+						android:id="@+id/TotalDeaths"
+
+						android:textSize="24sp"
+						android:textColor="@color/statistics_color"
+						android:layout_marginLeft="12dp"
+						android:layout_marginTop="32dp"
+						android:layout_width="80dp"
+						android:layout_height="53dp"
+						android:text="00000"
+						/>
+
+					<TextView
+						android:id="@+id/TodayDeaths"
+
+						android:textSize="15sp"
+						android:textColor="@color/statistics_color"
+						android:layout_marginLeft="17dp"
+						android:layout_marginTop="64dp"
+						android:layout_width="42dp"
+						android:layout_height="33.5dp"
+						android:text="(+ 0)"
+						/>
+
+				</RelativeLayout>
+
+				<org.eazegraph.lib.charts.PieChart
+					android:id="@+id/pieChart"
+					android:layout_width="194dp"
+
+					android:layout_height="185dp"
+					android:layout_marginLeft="200dp"
+					android:layout_marginTop="550dp"
+					android:layout_marginBottom="10dp"
+					android:padding="8dp"
+
+
+					app:egInnerPaddingColor="@color/Dark_Slate_Blue"
+					app:egLegendHeight="9dp"
+					app:egLegendTextSize="0sp"
+					app:egUsePieRotation="true"
+
+
+					app:egValueTextSize="0sp" />
+
+
+				<RelativeLayout android:id="@+id/group_36"
+					android:layout_marginTop="580dp"
+					android:layout_marginStart="58dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="58dp">
+
+
+					<RelativeLayout android:id="@+id/group_32"
+						android:layout_marginTop="0dp"
+						android:layout_marginStart="0dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="0dp">
+
+						<View android:id="@+id/affected_small_rectangle"
+							android:background="@drawable/affected_small_rectangle_shape"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="3dp"
+							android:layout_width="20dp"
+							android:layout_height="20dp"
+							android:layout_marginLeft="0dp" />
+
+						<TextView android:id="@+id/affected_ek1"
+
+							android:textSize="17sp"
+							android:textColor="@color/affected_ek1_color"
+							android:layout_marginLeft="29dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="81dp"
+							android:layout_height="36.5dp"
+							android:text="Affected"
+							/>
+
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/group_33"
+						android:layout_marginTop="25dp"
+						android:layout_marginStart="0dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="0dp">
+
+						<View android:id="@+id/death_small_rectangle"
+							android:background="@drawable/death_small_rectangle_shape"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="3dp"
+							android:layout_width="20dp"
+							android:layout_height="20dp"
+							android:layout_marginLeft="0dp" />
+
+						<TextView android:id="@+id/death_ek1"
+
+							android:textSize="17sp"
+							android:textColor="@color/affected_ek1_color"
+							android:layout_marginLeft="29dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="61dp"
+							android:layout_height="36.5dp"
+							android:text="Death"
+							/>
+
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/group_34"
+						android:layout_marginTop="50dp"
+						android:layout_marginStart="0dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="0dp">
+
+						<View android:id="@+id/active_small_rectangle"
+							android:background="@drawable/active_small_rectangle_shape"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="4dp"
+							android:layout_width="20dp"
+							android:layout_height="20dp"
+							android:layout_marginLeft="0dp" />
+
+						<TextView android:id="@+id/active_ek1"
+
+							android:textSize="17sp"
+							android:textColor="@color/affected_ek1_color"
+							android:layout_marginLeft="30dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="62dp"
+							android:layout_height="36.5dp"
+							android:text="Active"
+							/>
+
+					</RelativeLayout>
+
+
+
+
+					<RelativeLayout android:id="@+id/group_35"
+						android:layout_marginTop="75dp"
+						android:layout_marginStart="0dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="0dp">
+
+						<View android:id="@+id/recovered_small_rectangle"
+							android:background="@drawable/recovered_small_rectangle_shape"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="3dp"
+							android:layout_width="20dp"
+							android:layout_height="20dp"
+							android:layout_marginLeft="0dp" />
+
+						<TextView android:id="@+id/recovered_ek1"
+
+							android:textSize="17sp"
+							android:textColor="@color/affected_ek1_color"
+							android:layout_marginLeft="30dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="100dp"
+							android:layout_height="36.5dp"
+							android:text="Recovered"
+							/>
+
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

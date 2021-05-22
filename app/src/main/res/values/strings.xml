@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- covit_19 strings -->
+
+    <string name="app_name">Covid19 Tracker</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="statistics_string">Statistics</string>
+    <string name="app_name_string">Covid 19 Tracker </string>
+    <string name="by_faissal_hamdi_string">By Faissal hamdi</string>
+    <string name="my_country_string">My Country</string>
+    <string name="global_string">Global</string>
+
+</resources>
